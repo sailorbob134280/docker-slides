@@ -1,7 +1,8 @@
 <script>
-
+ // Title
+ export let title;
  // Color Backgrounds
- export let bgColor;
+ const bgColor = "#0f0f0f";
 
  // Gradient Backgrounds
  export let bgGradient;
@@ -20,6 +21,7 @@
  export let bgInteractive;
  // Transitions
 </script>
+
 <section
 		data-background-color={bgColor}
 													data-background-gradient={bgGradient}
@@ -34,5 +36,10 @@
 		data-background-iframe={bgIframe}
 		data-background-interactive={bgInteractive}
 >
-		<slot/>
+  <div class="flex-col h-screen">
+    <h1 class="py-8 flex-none font-sans font-thin text-left text-7xl">{title}</h1>
+	  <div class="items-center align-middle m-auto font-sans font-light text-left h-max">
+      <slot />
+    </div>
+  </div>
 </section>
