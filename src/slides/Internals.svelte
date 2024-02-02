@@ -10,11 +10,9 @@
   <h2 class="fragment fade-up font-sans font-light text-4xl">How</h2>
 </section>
 
-<Slide title="The Solution(...)">
-  <ul class="m-10">
-    <li class="fragment fade-up">We created Containers 🥳</li>
-    <h1> TODO: Add a diagram of a container </h1>
-  </ul>
+<Slide title="The Solution">
+  <img src="assets/containers.png" class="fragment fade-up mx-auto my-8" width="500" />
+  <p class="mx-auto font-thin text-5xl text-center">We created Containers! 🥳</p>
 </Slide>
 
 <Slide title="Containers">

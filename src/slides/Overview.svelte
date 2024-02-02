@@ -25,10 +25,9 @@
 </Slide>
 
 <Slide title="The Solution(?)">
-  <ul class="m-10">
-    <li class="fragment fade-up">We created Virtual Machines 🥳</li>
-    <h1> TODO: Add a diagram of a hypervisor </h1>
-    <li class="fragment fade-up">But there were problems... 🤨</li>
+  <img src="assets/virtual-machines.png" class="mx-auto my-8" width="480" />
+  <p class="mx-auto font-thin text-5xl text-center">We created Virtual Machines! 🥳</p>
+  <p class="fragment fade-up mx-auto font-thin text-5xl text-center">But there were problems... 🤨</p>
 </Slide>
 
 <Slide title="Virtual Machines">

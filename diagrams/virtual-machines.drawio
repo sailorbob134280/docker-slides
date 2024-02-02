@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-02-02T03:28:58.802Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="I_IiKyn01s_boxqpQ2ZC" version="23.1.1" type="device">
+  <diagram name="Page-1" id="KbihBJw6X6DxkMFf-SAz">
+    <mxGraphModel dx="1688" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-2" value="&lt;font face=&quot;Montserrat&quot; style=&quot;font-size: 28px;&quot;&gt;Host Hardware&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="205" y="373" width="440" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-4" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; style=&quot;font-size: 28px;&quot;&gt;Hypervisor&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="228" y="635" width="397" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="228" y="393" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-5" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; style=&quot;font-size: 17px;&quot;&gt;VM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Guest Kernel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry x="10" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-7" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry x="10" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-8" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;App Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry x="10" y="52" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-9" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Tools&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry x="10" y="91" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Application&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-11">
+          <mxGeometry x="10" y="12" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="365" y="393" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-13" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; style=&quot;font-size: 17px;&quot;&gt;VM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-14" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Guest Kernel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry x="10" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-15" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry x="10" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-16" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;App Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry x="10" y="52" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-17" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Tools&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry x="10" y="91" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-18" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Application&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-12">
+          <mxGeometry x="10" y="12" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="505" y="393" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-20" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot; style=&quot;font-size: 17px;&quot;&gt;VM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-21" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Guest Kernel&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry x="10" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-22" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry x="10" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-23" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;App Libs&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry x="10" y="52" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-24" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;System Tools&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry x="10" y="91" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Af7p8tGHQCc1HZCDjMQ4-25" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Montserrat&quot; face=&quot;Montserrat&quot;&gt;Application&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="Af7p8tGHQCc1HZCDjMQ4-19">
+          <mxGeometry x="10" y="12" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
