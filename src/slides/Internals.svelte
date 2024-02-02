@@ -46,7 +46,7 @@
   <ul>
     <li>Image Manifest</li>
   </ul>
-  <Code>
+  <Code trim={true} lineNumbers="1-36">
     {`
 {
    "schemaVersion": 2,
@@ -70,7 +70,7 @@
   <ul>
     <li>Configuration File</li>
   </ul>
-  <Code>
+  <Code trim={true} lineNumbers="1-36">
     {`
 [
     {

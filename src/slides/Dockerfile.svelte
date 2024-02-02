@@ -22,7 +22,7 @@
 
 <Slide title="Dockerfile Example">
   <p>Here's an example of a Dockerfile I regularly use:</p>
-  <Code>
+  <Code trim={true} lineNumbers="1-36">
     {`
 FROM gcc:12
 
@@ -45,13 +45,13 @@ WORKDIR /usr/src/app
 
 <Slide title="Building and Running">
   <p>To build that image, we'd run:</p>
-  <Code>
+  <Code trim={true}>
     {`
 docker build -t my-cool-build-env:latest ./Dockerfile .
     `}
   </Code>
   <p>To run that container, we'd run:</p>
-  <Code>
+  <Code trim={true}>
     {`
 docker run my-cool-build-env:latest
     `}
@@ -92,6 +92,14 @@ docker run my-cool-build-env:latest
   </div>
 </section>
 
+<section>
+  <div class="flex-col">
+    <h3 class="font-sans font-thin text-12xl flex-col">Please do not ship your entire build toolchain in the production image.</h3>
+    <img src="assets/sad-whale.png" alt="A sad whale" class="mx-auto object-contain flex-col" width="300" />
+    <h3 class="fragment fade-up font-sans font-thin text-12xl flex-col">This makes the whale sad.</h3>
+  </div>
+</section>
+
 <Slide title="Runtime (Container)">
   <p class="fragment fade-up">At runtime, there are a lot more features you can leverage</p>
   <ul class="m-4">
@@ -104,7 +112,7 @@ docker run my-cool-build-env:latest
 
 <Slide title="Example Runtime Command">
   <p class="fragment fade-up">Here's an example of a more complex run command:</p>
-  <Code>
+  <Code trim={true} lineNumbers="1-36">
     {`
   docker run -d \\
     --name my-flask-container \\
@@ -117,9 +125,19 @@ docker run my-cool-build-env:latest
   </Code>
 </Slide>
 
+<Slide title="Registries">
+  <p class="fragment fade-up">Images are stored and shared using <i>Registries</i></p>
+  <ul class="m-4">
+    <li class="fragment fade-up">Public - Docker Hub, GitHub Container Registry, etc</li>
+    <li class="fragment fade-up">Private - Self-hosted, Amazon ECR, Google Artifact Registry, etc</li>
+    <li class="fragment fade-up">Self-hosted - Harbor, Nexus, many Git clients, etc</li>
+  </ul>
+  <p class="fragment fade-up font-thin"><i>Recall: An image is just some layers and metadata. Images can be pushed, pulled, and tagged separately, greatly improving efficiency.</i></p>
+</Slide>
+
 <Slide title="Another Snag">
   <p class="fragment fade-up">Some projects contain lots of containers...</p>
   <img src="assets/overloaded-whale.png" alt="An overloaded whale" class="fragment fade-up mx-auto object-contain" width="300" />
-  <p class="fragment fade-up font-thin"><i>...a LOT of containers.</i></p>
+  <p class="fragment fade-up font-thin"><i>...a whole lot of containers.</i></p>
   <p class="fragment fade-up font-thin"><i>And they all need to be configured for the specific project.</i></p>
 </Slide>
