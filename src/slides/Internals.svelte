@@ -1,10 +1,12 @@
 <script>
   import Slide from '../lib/Slide.svelte';
   import Code from '../lib/Code.svelte';
+
+  export let part;
 </script>
 
 <section data-background="assets/BG2.png" data-background-opacity="0.3">
-  <h1 class="font-sans font-thin text-12xl">Part 2</h1>
+  <h1 class="font-sans font-thin text-12xl">Part {part}</h1>
   <h2 class="fragment fade-up font-sans font-light text-4xl">How</h2>
 </section>
 
@@ -21,7 +23,9 @@
     <li class="fragment fade-up">Generally aware it isn't a real machine</li>
     <li class="fragment fade-up">Segregated from other processes through kernel namespaces</li>
     <li class="fragment fade-up">May be resource-limited using cgroups</li>
+    <li class="fragment fade-up">Can be nested, with the right settings</li>
   </ul>
+  <p class="fragment fade-up"><i>Generally cannot load kernel modules or execute in kernel space... Unless you make it privileged</i></p>
 </Slide>
   
 <Slide title="Under the hood">

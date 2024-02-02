@@ -8,8 +8,8 @@
 </script>
 
 <Title/>
-<Overview/>
-<Internals/>
-<Dockerfile/>
+<Overview part=1/>
+<Internals part=2/>
+<Dockerfile part=3/>
 <UseCases/>
 <DockerCompose/>

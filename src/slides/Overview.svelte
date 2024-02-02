@@ -1,9 +1,11 @@
 <script>
   import Slide from '../lib/Slide.svelte';
+
+  export let part;
 </script>
 
 <section data-background="assets/BG1.png" data-background-opacity="0.3">
-  <h1 class="font-sans font-thin text-12xl">Part 1</h1>
+  <h1 class="font-sans font-thin text-12xl">Part {part}</h1>
   <h2 class="fragment fade-up font-sans font-light text-4xl">Why</h2>
 </section>
 
